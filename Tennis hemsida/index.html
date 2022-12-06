@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="banner">
+        <div class="container">
+            <div class="navbar">
+                <img src="images/player.png" class="logo">
+                <nav>
+                    <ul id="menulist">
+                        <li><a href="">Tennisracket</a></li>
+                        <li><a href="omkl.html">Boka omklädningsrum</a></li>
+                        <li><a href="bastu.html">Boka bastu</a></li>
+                        <li><a href="">Kontakta oss!</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" 
+                onclick="togglemenu()">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>Tennisracket<br> UltimateShock</h2>
+                    <h3>En kraftfull racket</h3>
+                    <H4>499.99:-</H4>
+                    <button type="button">Köp idag!<img src="images/arrow.png"> </button>
+                </div>
+                <div class="col-2">
+                    <img src="images/racket.png" class="controller">
+                    <div class="color-box"></div>
+                    <!---<div class="add-btn">
+                        <img src="images/add.png">
+                        <p><small>Lägg till i kundvagn</small></p>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="social-links">
+                <img src="images/fb.png">
+                <img src="images/tw.png">
+                <img src="images/ig.png">
+            </div>
+
+    </div>
+    
+
+        
+
+        <div class="social-links">
+            <img src="images/fb.png">
+            <img src="images/tw.png">
+            <img src="images/ig.png">
+        </div>
+
+    </div>
+
+    <script>
+        var menulist = document.getElementById("menulist")
+        menulist.style.maxHeight= "0px";
+        function togglemenu(){
+            if(menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight= "130px"
+            }
+            else
+            {
+                menulist.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
