@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.available {
+  background-color: #b3ffb3;
+}
+.not-available {
+  background-color: #ffb3b3;
+}
